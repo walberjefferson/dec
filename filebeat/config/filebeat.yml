@@ -8,7 +8,9 @@ filebeat.inputs:
     # - /var/log/*.log
     #- c:\programdata\elasticsearch\logs\*
     #- C:\elasticstack\filebeat-5.5.1-windows-x86_64\logs\*
-    - /usr/share/app/app.log*
+    #- /usr/share/app/app.log*
+    - /home/binho/Sites/elk/app.log*
+
     #- /usr/share/app/place1/app.log.*
 
 #----------------------------- Logstash output 
